@@ -1,0 +1,1 @@
+<p>If your results do not appear at the expected location within 30 min, please check the logging folder (analysis_results\TrovaPipe\[version number]\[Run ID] first, or use the JIRA ticketing system to submit a support request. </p>

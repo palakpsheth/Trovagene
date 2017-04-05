@@ -1,0 +1,33 @@
+# README
+
+BAMStats is a tool for extracting coverage, and other data, from BAM format 
+mapping files, and generating descriptive statistics of that data.
+
+
+# Installation
+Unpack zip archive to a convenient location. Zip archive contains two 
+executables and a lib directory containing third-party jar files used by 
+BAMStats. Ensure lib directory remains with executables.
+
+
+# Running BAMstats
+To run BAMStats, use the following command (in this example 4GB is allocated 
+with the -Xmx flag):
+
+java -jar -Xmx4g BAMStats-GUI-1.25.jar 
+
+To run the command-line version of BAMStats use the following command:
+
+java -jar -Xmx4g BAMStats-1.25.jar -i <BAM file>
+
+For a full list of command line options: java -jar BAMStats-1.20.jar -h
+
+
+# Notes 
+1. BAMStats typically requires 2 to 6 GB of computer memory allocated to it (as
+   a Java program, this is achieved with the -Xmx flag when running the program 
+   from the command line).
+
+3. BAMStats will except either SAM or BAM formatted files but these must be 
+   sorted.
+

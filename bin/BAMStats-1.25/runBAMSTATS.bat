@@ -1,0 +1,1 @@
+java -Xmx8G -jar BAMStats-GUI-1.25.jar
